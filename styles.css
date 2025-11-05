@@ -53,6 +53,37 @@ section h3 {
     font-size: 1.2rem;
 }
 
+/* ==================== CTA / CARD LINK ==================== */
+.cta-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    background: linear-gradient(180deg, #ffffff, #f7f4ff);
+    border: 1px solid rgba(102, 126, 234, 0.25);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 6px 18px rgba(102, 126, 234, 0.15);
+}
+
+.cta-text h3 { margin: 0 0 .25rem; color: #3f3d56; }
+.cta-text p { margin: 0; color: #5c5a76; }
+
+.cta-button {
+    display: inline-block;
+    background-color: #667eea;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.06s ease;
+    white-space: nowrap;
+}
+
+.cta-button:hover { background-color: #5568d3; }
+.cta-button:active { transform: translateY(1px); }
+
 /* ==================== DROPDOWN STYLES ==================== */
 .dropdown-example {
     margin-bottom: 2rem;
