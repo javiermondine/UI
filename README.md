@@ -2,7 +2,7 @@
 
 Proyecto de práctica de **The Odin Project** - Lección "Dynamic User Interface Interactions"
 
-## 📋 Contenido
+## Contenido
 
 Este proyecto implementa dos componentes interactivos con JavaScript vanilla:
 
@@ -19,19 +19,13 @@ Este proyecto implementa dos componentes interactivos con JavaScript vanilla:
 - Pausa al pasar el mouse
 - Indicadores clicables para navegación directa
 
-## 🚀 Cómo usar
-
-1. Abre `index.html` en tu navegador
-2. Interactúa con los dropdowns haciendo clic en los botones
-3. Navega por el carrusel usando los botones o los indicadores
-
-## 🛠️ Tecnologías
+## Tecnologías
 
 - HTML5
 - CSS3 (Flexbox, Grid, Animations)
 - JavaScript Vanilla (ES6+)
 
-## 📂 Estructura
+## Estructura
 
 ```
 dynamic-ui/
@@ -42,7 +36,7 @@ dynamic-ui/
 └── README.md       # Este archivo
 ```
 
-## ✨ Características
+## Características
 
 - **Código modular**: Cada componente en su propio archivo
 - **Reutilizable**: Los componentes funcionan con múltiples instancias
