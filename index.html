@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic UI Interactions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dynamic User Interface Interactions</h1>
+        <p>Practicing dropdown menus and image carousels</p>
+    </header>
+
+    <main>
+        <!-- Dropdown Menu Section -->
+        <section class="dropdown-section">
+            <h2>1. Dropdown Menus</h2>
+            
+            <div class="dropdown-example">
+                <h3>Single Dropdown</h3>
+                <div class="dropdown" data-dropdown>
+                    <button class="dropdown-button" data-dropdown-button>
+                        Select an option ▼
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Option 1</a>
+                        <a href="#" class="dropdown-item">Option 2</a>
+                        <a href="#" class="dropdown-item">Option 3</a>
+                        <a href="#" class="dropdown-item">Option 4</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dropdown-example">
+                <h3>Multiple Dropdowns (Reusable Code)</h3>
+                <div class="dropdowns-container">
+                    <div class="dropdown" data-dropdown>
+                        <button class="dropdown-button" data-dropdown-button>
+                            Menu 1 ▼
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Home</a>
+                            <a href="#" class="dropdown-item">About</a>
+                            <a href="#" class="dropdown-item">Contact</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown" data-dropdown>
+                        <button class="dropdown-button" data-dropdown-button>
+                            Menu 2 ▼
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Profile</a>
+                            <a href="#" class="dropdown-item">Settings</a>
+                            <a href="#" class="dropdown-item">Logout</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown" data-dropdown>
+                        <button class="dropdown-button" data-dropdown-button>
+                            Menu 3 ▼
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Dashboard</a>
+                            <a href="#" class="dropdown-item">Analytics</a>
+                            <a href="#" class="dropdown-item">Reports</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Carousel Section -->
+        <section class="carousel-section">
+            <h2>2. Image Carousel</h2>
+            
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">❮</button>
+                <button class="carousel-button next" data-carousel-button="next">❯</button>
+                
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        <li class="carousel-slide current-slide">
+                            <img src="https://via.placeholder.com/800x400/FF6B6B/FFFFFF?text=Image+1" alt="Slide 1">
+                        </li>
+                        <li class="carousel-slide">
+                            <img src="https://via.placeholder.com/800x400/4ECDC4/FFFFFF?text=Image+2" alt="Slide 2">
+                        </li>
+                        <li class="carousel-slide">
+                            <img src="https://via.placeholder.com/800x400/45B7D1/FFFFFF?text=Image+3" alt="Slide 3">
+                        </li>
+                        <li class="carousel-slide">
+                            <img src="https://via.placeholder.com/800x400/96CEB4/FFFFFF?text=Image+4" alt="Slide 4">
+                        </li>
+                        <li class="carousel-slide">
+                            <img src="https://via.placeholder.com/800x400/FFEAA7/333333?text=Image+5" alt="Slide 5">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="carousel-nav">
+                    <button class="carousel-indicator current-indicator" data-carousel-indicator="0"></button>
+                    <button class="carousel-indicator" data-carousel-indicator="1"></button>
+                    <button class="carousel-indicator" data-carousel-indicator="2"></button>
+                    <button class="carousel-indicator" data-carousel-indicator="3"></button>
+                    <button class="carousel-indicator" data-carousel-indicator="4"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="dropdown.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>
